@@ -15,8 +15,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      # Aquí se incluyen los pasos para construir tu aplicación
-      # Por ejemplo, si es una aplicación Node.js:
+      # Aquí se incluyen los pasos para construir la aplicación
+      # aplicación Node.js:
       - name: Install Dependencies
         run: npm install
 
