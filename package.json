@@ -1,0 +1,14 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "scripts": {
+    "analyze-code": "eslint .", // Ejemplo de análisis estático de código utilizando ESLint
+    "check-secrets": "detect-secrets scan", // Ejemplo de búsqueda de secretos en el código utilizando detect-secrets
+    "scan-containers": "anchore-cli analyze" // Ejemplo de escaneo de contenedores utilizando Anchore Engine
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0", // Ejemplo de herramienta de análisis estático de código
+    "detect-secrets": "^1.0.3", // Ejemplo de herramienta para búsqueda de secretos en el código
+    "anchore-cli": "^0.9.2" // Ejemplo de herramienta para escaneo de contenedores
+  }
+}
